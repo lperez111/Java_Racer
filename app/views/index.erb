@@ -1,13 +1,15 @@
 <div class="container">
   <h1>Get Racing!</h1>
-  <form action="/add_racers" method="post">
-    <label>Player 1:</label><br>
-    <input type="text" name="player_1_name" placeholder="Name"><br>
-    <input id="player_1_button"type="text" name="player_1_button" placeholder="Pick your Racer"><br>
-    <label>Player 2:</label><br>
-    <input type="text" name="player_2_name" placeholder="Name"><br>
-    <input id="player_2_button"type="text" name="player_2_button" placeholder="Pick your Racer"><br>
-    <br>
-    <input type="submit" value="Start Racing!">
+  <div id="make_the_players">
+    <form action="/add_racers" method="post">
+      <label>Player 1:</label><br>
+      <input type="text" name="player_1_name" placeholder="Name"><br>
+      <input id="player_1_key"type="text" name="player_1_key" placeholder="Pick your Racer"><br>
+      <label>Player 2:</label><br>
+      <input type="text" name="player_2_name" placeholder="Name"><br>
+      <input id="player_2_key"type="text" name="player_2_key" placeholder="Pick your Racer"><br>
+      <br>
+      <input type="submit" id="confirm" value="Start Racing!">
+    </div>
   </form>
 </div>

@@ -1,5 +1,3 @@
-post '/new_game' do
-  @game = Game.create()
-  @player1.games << @game
-  @player2.games << @game
+get '/race' do
+  erb :race
 end
