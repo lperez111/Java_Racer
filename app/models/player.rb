@@ -1,4 +1,3 @@
 class Player < ActiveRecord::Base
-  has_many :player_games
-  has_many :games, through: :player_games
+  has_and_belongs_to_many :games
 end
